@@ -88,12 +88,12 @@
 ### 链接（title为可选项）：
 #### 内嵌方式：
 ```markdown
-[W3Cschool](http://www.w3cschool.cn/ "W3Cschool")
+[Segma](https://www.segma.tech/ "Segma")
 ```
 #### 引用方式：
 ```markdown
 [链接文字][id]
-[id]: http://www.w3cschool.cn/ "标题文字"
+[id]: https://www.segma.tech/ "标题文字"
 ```
 #### 引用存储文件：
 ```markdown
@@ -102,7 +102,7 @@
 #### 还能这样使用：
 ```markdown
 [链接文字][]
-[链接文字]: http://www.w3cschool.cn/
+[链接文字]: https://www.segma.tech/
 ```
 ### 邮件：
 ```markdown
@@ -112,12 +112,12 @@
 ### 图片：
 #### 内嵌方式：
 ```markdown
-![替代文字](http://statics.w3cschool.cn/images/w3c/index-logo.png "标题文字")
+![替代文字](https://www.segma.tech//images/index-logo.png "标题文字")
 ```
 #### 引用方式：
 ```markdown
 ![替代文字][logo]
-[logo]: http://statics.w3cschool.cn/images/w3c/index-logo.png "标题文字"
+[logo]: https://www.segma.tech/images/index-logo.png "标题文字"
 ```
 
 ### 代码和语法高亮：
@@ -208,7 +208,7 @@ Markdown也支持传统的HTML标签。
 
 比如一个链接，你不太喜欢Markdown的写法，也可以直接写成
 ```markdown
-<a href="https://www.w3cschool.cn/">W3Cschool</a>
+<a href="https://www.segma.tech/">Segma</a>
 ```
 
 ### 附录
