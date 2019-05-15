@@ -158,7 +158,7 @@
 ````
 
 ### 引用：
-
+代码：
 ```markdown
 > Email-style angle brackets
 > are used for blockquotes.
@@ -167,6 +167,52 @@
 > * You can quote a list.
 > * Etc.
 ```
+示例：
+> Email-style angle brackets
+> are used for blockquotes.
+> > And, they can be nested.
+> #### Headers in blockquotes
+> * You can quote a list.
+> * Etc.
+
+#### 另外支持提示等级（通过插件实现）
+##### 1.注意
+代码：
+```markdown
+>[!note]
+> 注意事项
+```
+示例：
+>[!note]
+> 注意事项
+##### 2.提示
+代码：
+```markdown
+>[!tip]
+> 提示事项
+```
+示例：
+>[!tip]
+> 提示事项
+##### 3.警告
+代码：
+```markdown
+>[!warning]
+> 警告事项
+```
+示例：
+>[!warning]
+> 警告事项
+##### 4.危险
+代码：
+```markdown
+>[!danger]
+> 危险事项
+```
+示例：
+>[!danger]
+> 危险事项
+
 
 ### 换行：
 在一行的结尾处加上2个或2个以上的空格，也可以使用`</br>`标签  

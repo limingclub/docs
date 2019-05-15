@@ -64,7 +64,45 @@
         noData: '找不到结果',
         // 搜索标题的最大程级, 1 - 6
         depth: 2
+      },
+
+      //分页设置，文章底部显示
+      pagination: {
+        previousText: '上一篇文章',
+        nextText: '下一篇文章',
+        crossChapter: true
+      },
+
+      //代码段复制
+      copyCode: {
+        buttonText: {
+          '/'      : '点击复制'
+        },
+        errorText: {
+          '/'      : '错误'
+        },
+        successText: {
+          '/'      : '已复制'
+        }
+      },
+
+      //支持note文本提示，参考 https://github.com/zanfab/docsify-plugin-flexible-alerts
+      'flexible-alerts': {
+          style: 'flat', //or 'callout'
+          note: {
+              label: "注意"
+          },
+          tip: {
+              label: "提示"
+          },
+          warning: {
+              label: "警告"
+          },
+          danger: {
+              label: "危险"
+          }
       }
+
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -75,5 +113,7 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-markdown.js"></script>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 </body>
 </html>
